@@ -5,10 +5,7 @@
     src: url(Bonello-Regular.otf);
 }
 
-@font-face {
-    font-family: Darling;
-    src: url(Darling.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Playwrite+CU:wght@100..400&display=swap');
 
 * {
     margin: 0px;
@@ -39,7 +36,8 @@ header {
 
 header h1 {
     font-size: 5em;
-    font-family: Darling;
+    font-family: "Playwrite CU", cursive;
+    font-style: normal;
 }
 
 nav {
@@ -72,7 +70,9 @@ main {
 }
 
 section h1 {
-    font-family: Bonello;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
     color: var(--cor1);
     font-size: 2em;
     padding: 10px;
