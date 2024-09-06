@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: Bonello;
-    src: url(_fontes/Bonello-Regular.otf);
+    src: url(Bonello-Regular.otf);
 }
 
 @font-face {
     font-family: Darling;
-    src: url(_fontes/Darling.ttf);
+    src: url(Darling.ttf);
 }
 
 * {
