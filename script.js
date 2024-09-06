@@ -14,3 +14,21 @@ function clicar2() {
 function clicar3() {
     res.innerHTML = 'Imagina só: um biscoito que é pura tentação desde o primeiro olhar. Crocante por fora, mas que derrete na boca a cada mordida, revelando um recheio cremoso e irresistível de doce de leite. Esse biscoito é a definição de perfeição para quem é apaixonado por doces. Sabe aquele momento do dia em que você precisa de algo para alegrar a alma? Pois é, esse biscoito foi feito exatamente para isso! Perfeito para acompanhar um cafezinho, para adoçar a tarde ou simplesmente para ser devorado sem culpa, porque cada mordida vale a pena. É aquele tipo de doce que te abraça por dentro e faz você querer repetir a dose. Simplesmente impossível comer só um!'
 }
+
+function contato() {
+    window.alert('Esta pagina ainda não foi criada, espere mais um pouco!')
+    var nome = window.prompt('Por enquanto diga seu nome!')
+    window.alert(`Muito obrigado ${nome}!`)
+}
+
+function zap() {
+    window.alert('Esta pagina ainda não foi criada, espere mais um pouco!')
+    var nome = window.prompt('Por enquanto diga seu nome!')
+    window.alert(`Muito obrigado ${nome}!`)
+}
+
+function info() {
+    window.alert('Esta pagina ainda não foi criada, espere mais um pouco!')
+    var nome = window.prompt('Por enquanto diga seu nome!')
+    window.alert(`Muito obrigado ${nome}!`)
+}
