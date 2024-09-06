@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Bonello;
+    src: url(_fontes/Bonello-Regular.otf);
+}
+
+@font-face {
+    font-family: Darling;
+    src: url(_fontes/Darling.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor1: #421A1D;
+    --cor2: #993C42;
+    --cor3: #C24C53;
+    --cor4: #EB5B65;
+    --cor5: #FF9999;
+    --fundo: #fffed2;
+}
+
+body {
+    background-color: var(--fundo);
+}
+
+header {
+    background-color: var(--cor4);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px var(--cor1);
+}
+
+header h1 {
+    font-size: 5em;
+    font-family: Darling;
+}
+
+nav {
+    background-color: var(--cor4);
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--cor3);
+    text-decoration: underline;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main {
+    background-color: #ffffff;
+    margin: 10px 20px 10px 20px;
+    text-indent: 10px;
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+    min-width: 300px;
+}
+
+section h1 {
+    font-family: Bonello;
+    color: var(--cor1);
+    font-size: 2em;
+    padding: 10px;
+    text-shadow: 2px 2px 3px var(--cor2);
+}
+
+section p {
+    text-indent: 50px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: var(--cor5);
+    margin: 5px;
+    border-radius: 20px;
+}
+
+div#res {
+    background-color: #4e00008f;
+    border-radius: 0px;
+    border: solid #4e00008f;
+    padding: 20px;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+section strong {
+    color: var(--cor1);
+    text-shadow: 1px 2px 3px var(--cor1);
+    text-decoration: underline 1px;
+    cursor: pointer;
+}
+
+section strong:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--cor4);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: italic;
+}
